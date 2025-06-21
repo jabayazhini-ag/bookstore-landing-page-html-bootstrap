@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Haven - Premium Book Collection</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-book-open text-warning me-2"></i>Literary Haven</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Discover Your Next Great Read</h1>
+                    <p class="lead mb-4">Explore our curated collection of bestsellers, classics, and hidden gems from around the world.</p>
+                    <button class="btn btn-warning btn-lg fw-bold">Browse Collection</button>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop" alt="Stack of Books" class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books -->
+    <section id="featured" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark">Featured Books</h2>
+                <div class="bg-warning mx-auto mt-3" style="height: 4px; width: 80px;"></div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                        <div class="position-absolute top-0 end-0 bg-danger text-white px-3 py-1 rounded-bottom-start">
+                            <small class="fw-bold">Bestseller</small>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=400&fit=crop" class="card-img-top" alt="The Midnight Library">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">The Midnight Library</h5>
+                            <p class="text-muted mb-2">by Matt Haig</p>
+                            <p class="card-text flex-grow-1">A magical novel about a library that exists between life and death, where every book represents a different life you could have lived.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <span class="h5 text-success mb-0 fw-bold">$24.99</span>
+                                <div>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <small class="text-muted ms-1">(4.8)</small>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-3 fw-bold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                        <div class="position-absolute top-0 end-0 bg-info text-white px-3 py-1 rounded-bottom-start">
+                            <small class="fw-bold">New Release</small>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop" class="card-img-top" alt="Atomic Habits">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Atomic Habits</h5>
+                            <p class="text-muted mb-2">by James Clear</p>
+                            <p class="card-text flex-grow-1">Transform your life with tiny changes that deliver remarkable results. A revolutionary approach to building good habits.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <span class="h5 text-success mb-0 fw-bold">$18.99</span>
+                                <div>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-warning"></i>
+                                    <small class="text-muted ms-1">(4.6)</small>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-3 fw-bold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                        <div class="position-absolute top-0 end-0 bg-success text-white px-3 py-1 rounded-bottom-start">
+                            <small class="fw-bold">Staff Pick</small>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop" class="card-img-top" alt="Dune">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Dune</h5>
+                            <p class="text-muted mb-2">by Frank Herbert</p>
+                            <p class="card-text flex-grow-1">The epic science fiction masterpiece that inspired countless works. A tale of politics, religion, and survival on the desert planet Arrakis.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <span class="h5 text-success mb-0 fw-bold">$22.50</span>
+                                <div>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <small class="text-muted ms-1">(4.9)</small>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-3 fw-bold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark">Browse by Category</h2>
+                <div class="bg-warning mx-auto mt-3" style="height: 4px; width: 80px;"></div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center bg-gradient" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="card-body text-white py-5">
+                            <i class="fas fa-heart fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Romance</h4>
+                            <p class="mb-4">Love stories that touch the heart</p>
+                            <button class="btn btn-light fw-bold">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center bg-gradient" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="card-body text-white py-5">
+                            <i class="fas fa-rocket fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Sci-Fi</h4>
+                            <p class="mb-4">Journey to distant worlds</p>
+                            <button class="btn btn-light fw-bold">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center bg-gradient" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="card-body text-white py-5">
+                            <i class="fas fa-search fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Mystery</h4>
+                            <p class="mb-4">Unravel thrilling puzzles</p>
+                            <button class="btn btn-light fw-bold">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center bg-gradient" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="card-body text-white py-5">
+                            <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+                            <h4 class="fw-bold">Education</h4>
+                            <p class="mb-4">Learn and grow every day</p>
+                            <button class="btn btn-light fw-bold">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-3">Stay Updated with New Releases</h3>
+                    <p class="lead">Get exclusive offers and be the first to know about our latest book arrivals.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control form-control-lg" placeholder="Enter your email address">
+                        <button class="btn btn-warning fw-bold" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-secondary text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3"><i class="fas fa-book-open text-warning me-2"></i>Literary Haven</h5>
+                    <p>Your trusted partner for discovering amazing books and expanding your literary horizons.</p>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-light btn-sm"><i class="fab fa-facebook"></i></button>
+                        <button class="btn btn-outline-light btn-sm"><i class="fab fa-twitter"></i></button>
+                        <button class="btn btn-outline-light btn-sm"><i class="fab fa-instagram"></i></button>
+                        <button class="btn btn-outline-light btn-sm"><i class="fab fa-youtube"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">New Releases</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Bestsellers</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Book Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Fiction</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Non-Fiction</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Children's Books</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Academic</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Literary Street, Book City, BC 12345</p>
+                    <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@literaryhaven.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Literary Haven. All rights reserved. | Crafted with <i class="fas fa-heart text-danger"></i> for book lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
