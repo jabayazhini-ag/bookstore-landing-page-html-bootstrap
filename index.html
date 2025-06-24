@@ -65,7 +65,7 @@
                             <p class="text-muted mb-2">by Matt Haig</p>
                             <p class="card-text flex-grow-1">A magical novel about a library that exists between life and death, where every book represents a different life you could have lived.</p>
                             <div class="d-flex justify-content-between align-items-center mt-auto">
-                                <span class="h5 text-success mb-0 fw-bold">$24.99</span>
+                                <span class="h5 text-success mb-0 fw-bold">₹380</span>
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
                                     <i class="fas fa-star text-warning"></i>
@@ -91,7 +91,7 @@
                             <p class="text-muted mb-2">by James Clear</p>
                             <p class="card-text flex-grow-1">Transform your life with tiny changes that deliver remarkable results. A revolutionary approach to building good habits.</p>
                             <div class="d-flex justify-content-between align-items-center mt-auto">
-                                <span class="h5 text-success mb-0 fw-bold">$18.99</span>
+                                <span class="h5 text-success mb-0 fw-bold">₹350</span>
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
                                     <i class="fas fa-star text-warning"></i>
@@ -117,7 +117,7 @@
                             <p class="text-muted mb-2">by Frank Herbert</p>
                             <p class="card-text flex-grow-1">The epic science fiction masterpiece that inspired countless works. A tale of politics, religion, and survival on the desert planet Arrakis.</p>
                             <div class="d-flex justify-content-between align-items-center mt-auto">
-                                <span class="h5 text-success mb-0 fw-bold">$22.50</span>
+                                <span class="h5 text-success mb-0 fw-bold">₹450</span>
                                 <div>
                                     <i class="fas fa-star text-warning"></i>
                                     <i class="fas fa-star text-warning"></i>
@@ -143,52 +143,178 @@
                 <div class="bg-warning mx-auto mt-3" style="height: 4px; width: 80px;"></div>
                 <!-- <hr class="bg-warning border-warning border-2 mx-auto mt-3 opacity-100 w-25" style="height: 4px;"> -->
             </div>
-            
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <div class="card-body text-white py-5">
-                            <i class="fas fa-heart fa-3x mb-3 text-white"></i>
-                            <h4 class="fw-bold text-white">Romance</h4>
-                            <p class="mb-4 text-white">Love stories that touch the heart</p>
-                            <button class="btn btn-light fw-bold">Explore</button>
-                        </div>
-                    </div>
+
+            <div id="categoriesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators mb-5">
+                    <button type="button" data-bs-target="#categoriesCarousel" data-bs-slide-to="0" class="active bg-warning rounded-circle" style="width: 12px; height: 12px;"></button>
+                    <button type="button" data-bs-target="#categoriesCarousel" data-bs-slide-to="1" class="bg-warning rounded-circle" style="width: 12px; height: 12px;"></button>
+                    <button type="button" data-bs-target="#categoriesCarousel" data-bs-slide-to="2" class="bg-warning rounded-circle" style="width: 12px; height: 12px;"></button>
                 </div>
+
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">            
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                    <div class="card-body text-white py-5">
+                                        <i class="fas fa-graduation-cap fa-3x mb-3 text-white"></i>
+                                        <h4 class="fw-bold text-white">Education</h4>
+                                        <p class="mb-4 text-white">Learn and grow every day</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
                 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <div class="card-body text-white py-5">
-                            <i class="fas fa-rocket fa-3x mb-3 text-white"></i>
-                            <h4 class="fw-bold text-white">Sci-Fi</h4>
-                            <p class="mb-4 text-white">Journey to distant worlds</p>
-                            <button class="btn btn-light fw-bold">Explore</button>
-                        </div>
-                    </div>
-                </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                    <div class="card-body text-white py-5">
+                                        <i class="fas fa-rocket fa-3x mb-3 text-white"></i>
+                                        <h4 class="fw-bold text-white">Sci-Fi</h4>
+                                        <p class="mb-4 text-white">Journey to distant worlds</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
                 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <div class="card-body text-white py-5">
-                            <i class="fas fa-search fa-3x mb-3 text-white"></i>
-                            <h4 class="fw-bold text-white">Mystery</h4>
-                            <p class="mb-4 text-white">Unravel thrilling puzzles</p>
-                            <button class="btn btn-light fw-bold">Explore</button>
-                        </div>
-                    </div>
-                </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                    <div class="card-body text-white py-5">
+                                        <i class="fas fa-search fa-3x mb-3 text-white"></i>
+                                        <h4 class="fw-bold text-white">Mystery</h4>
+                                        <p class="mb-4 text-white">Unravel thrilling puzzles</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
                 
-                <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                        <div class="card-body text-white py-5">
-                            <i class="fas fa-graduation-cap fa-3x mb-3 text-white"></i>
-                            <h4 class="fw-bold text-white">Education</h4>
-                            <p class="mb-4 text-white">Learn and grow every day</p>
-                            <button class="btn btn-light fw-bold">Explore</button>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card border-0 shadow-sm h-100 text-center" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                                    <div class="card-body text-white py-5">
+                                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                                        <h4 class="fw-bold text-white">Technology</h4>
+                                        <p class="mb-4 text-white">Digital age insights</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-magic fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Fantasy</h4>
+                                        <p class="mb-4">Magical worlds await</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-mask fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Horror</h4>
+                                        <p class="mb-4">Spine-chilling tales</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-leaf fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Biography</h4>
+                                        <p class="mb-4">Real life stories</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #667eea 0%, #f093fb 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-clock fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">History</h4>
+                                        <p class="mb-4">Journey through time</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-baby fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Children's</h4>
+                                        <p class="mb-4">Stories for little minds</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-dark" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-utensils fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Cooking</h4>
+                                        <p class="mb-4">Delicious recipes & tips</p>
+                                        <button class="btn btn-dark fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-white" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-dumbbell fa-3x mb-3"></i>
+                                        <h4 class="fw-bold">Health & Fitness</h4>
+                                        <p class="mb-4">Live your best life</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 mb-4">
+                                <div class="card border-0 shadow h-100 text-center text-white" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                    <div class="card-body py-5">
+                                        <i class="fas fa-heart fa-3x mb-3 text-white"></i>
+                                        <h4 class="fw-bold">Love</h4>
+                                        <p class="mb-4">Love stories that touch the heart</p>
+                                        <button class="btn btn-light fw-bold">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
+
+                <button class="carousel-control-prev bg-dark rounded-circle position-absolute" type="button" data-bs-target="#categoriesCarousel" data-bs-slide="prev" style="width: 50px; height: 50px; top: 45%; left: -25px;">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-dark rounded-circle position-absolute" type="button" data-bs-target="#categoriesCarousel" data-bs-slide="next" style="width: 50px; height: 50px; top: 45%; right: -25px;">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                
             </div>
+
         </div>
     </section>
 
