@@ -36,12 +36,14 @@
     <!-- Hero Section -->
     <section class="bg-primary text-white py-5 mt-5 pt-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 mb-4 mb-lg-0">
                     <h1 class="display-4 fw-bold mb-4">Discover Your Next Great Read</h1>
                     <p class="lead mb-4">Explore our curated collection of bestsellers, classics, and hidden gems from
                         around the world.</p>
-                    <button class="btn btn-warning btn-lg fw-bold shadow-lg">Browse Collection</button>
+                    <div class="d-grid d-sm-block">
+                        <button class="btn btn-warning btn-lg fw-bold shadow-lg">Browse Collection</button>
+                    </div>
                 </div>
                 <div class="col-lg-6 text-center">
                     <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=400&fit=crop"
@@ -339,15 +341,29 @@
 
                 </div>
 
-                <button class="carousel-control-prev bg-dark rounded-circle position-absolute" type="button"
-                    data-bs-target="#categoriesCarousel" data-bs-slide="prev"
-                    style="width: 50px; height: 50px; top: 45%; left: -60px;">
+                <button class="carousel-control-prev bg-dark rounded-circle position-absolute d-none d-lg-block"
+                    type="button" data-bs-target="#categoriesCarousel" data-bs-slide="prev"
+                    style="width: 50px; height: 50px; top: 45%; left: -25px;">
                     <span class="carousel-control-prev-icon"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next bg-dark rounded-circle position-absolute" type="button"
+                <button class="carousel-control-next bg-dark rounded-circle position-absolute d-none d-lg-block"
+                    type="button" data-bs-target="#categoriesCarousel" data-bs-slide="next"
+                    style="width: 50px; height: 50px; top: 45%; right: -25px;">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <!-- Mobile controls -->
+                <button class="carousel-control-prev bg-dark rounded-circle position-absolute d-lg-none" type="button"
+                    data-bs-target="#categoriesCarousel" data-bs-slide="prev"
+                    style="width: 50px; height: 50px; top: 45%; left: 10px;">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-dark rounded-circle position-absolute d-lg-none" type="button"
                     data-bs-target="#categoriesCarousel" data-bs-slide="next"
-                    style="width: 50px; height: 50px; top: 45%; right: -60px;">
+                    style="width: 50px; height: 50px; top: 45%; right: 10px;">
                     <span class="carousel-control-next-icon"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
